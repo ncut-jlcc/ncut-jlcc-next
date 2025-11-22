@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NCUT JLCC - 北方工业大学日语社网站
 
-## Getting Started
+欢迎来到北方工业大学日语社（NCUT JLCC）的官方网站项目！
 
-First, run the development server:
+## 🛠️ 技术栈 (Tech Stack)
+
+- **框架**: [Next.js 15](https://nextjs.org/) (App Router)
+- **语言**: [TypeScript](https://www.typescriptlang.org/)
+- **样式**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI 组件库**: [DaisyUI](https://daisyui.com/)
+- **图标**: [Iconify](https://iconify.design/)
+
+## 🚀 快速开始 (Getting Started)
+
+首先，安装依赖：
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+启动开发服务器：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+打开浏览器访问 [http://localhost:3000](http://localhost:3000) 即可看到效果。
 
-## Learn More
+开发后构建与预览：
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm build
+pnpm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 项目结构
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `app/`: 页面路由和布局
+- `components/`: 可复用的 UI 组件
+- `public/`: 静态资源（图片、字体等）
 
-## Deploy on Vercel
+## 🤝 贡献
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+欢迎社团成员参与开发！请确保在提交代码前运行 lint 检查。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm lint
+```
