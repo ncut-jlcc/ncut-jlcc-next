@@ -2,6 +2,8 @@ import Socials from "../components/Socials"; // 假设 Socials 已经被转换�
 import Link from "next/link"; // Next.js 项目中推荐使用 Link 组件进行路由跳转
 import Image from "next/image";
 
+import logo from "./assets/logo.png";
+
 // 定义 Navbar 组件
 const Navbar = () => {
   return (
@@ -31,7 +33,7 @@ const Navbar = () => {
           {/* 使用 Next.js 的 Link 组件 */}
           <Link href="/">
             <Image
-              src="/logo.png"
+              src={logo}
               alt="logo"
               width={40}
               height={40}
