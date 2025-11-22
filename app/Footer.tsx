@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Socials from "../components/Socials";
-import logo from "./assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +7,7 @@ const Footer = () => {
       <footer className="footer sm:footer-horizontal bg-base-100 text-base-content p-10">
         <aside className="flex items-center gap-4">
           <Image
-            src={logo}
+            src="/logo.png"
             alt="logo"
             width={56}
             height={56}

@@ -1,12 +1,10 @@
-import sushe from "./assets/sushe.webp";
-
 const Heroes = () => {
   return (
     <>
       {/* 第一个 Hero */}
       <section
         className="hero min-h-screen"
-        style={{ backgroundImage: `url('${sushe.src}')` }}
+        style={{ backgroundImage: `url('/sushe.webp')` }}
       >
         <div className="hero-content text-left p-0 flex justify-start items-start w-full h-full">
           <div className="max-w-md px-12 py-12 text-left">
