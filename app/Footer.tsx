@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer sm:footer-horizontal bg-base-100 text-base-content p-10">
         <aside className="flex items-center gap-4">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="logo"
             width={56}
             height={56}

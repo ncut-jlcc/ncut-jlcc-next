@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
   // Favicon (图标)
   icons: {
-    icon: "/favicon.svg", // 假设您的 favicon 文件在 public/ 目录下
+    icon: "/logo.webp", // 假设您的 favicon 文件在 public/ 目录下
   },
 };
 

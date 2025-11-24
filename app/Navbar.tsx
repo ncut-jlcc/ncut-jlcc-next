@@ -31,7 +31,7 @@ const Navbar = () => {
           {/* 使用 Next.js 的 Link 组件 */}
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="logo"
               width={40}
               height={40}
