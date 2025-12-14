@@ -7,35 +7,35 @@ import { loadSnowPreset } from "@tsparticles/preset-snow";
 import type { Container, Engine } from "@tsparticles/engine";
 
 export default function Snow() {
-    const [init, setInit] = useState(false);
+  const [init, setInit] = useState(false);
 
-    useEffect(() => {
-        initParticlesEngine(async (engine: Engine) => {
-            // load snow preset
-            await loadSnowPreset(engine);
-        }).then(() => {
-            setInit(true);
-        });
-    }, []);
+  useEffect(() => {
+    initParticlesEngine(async (engine: Engine) => {
+      // load snow preset
+      await loadSnowPreset(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
 
-    const particlesLoaded = async (container?: Container): Promise<void> => {
-        console.log(container);
-    };
+  const particlesLoaded = async (container?: Container): Promise<void> => {
+    console.log(container);
+  };
 
-    return (
-        <>
-            {init && (
-                <Particles
-                    id="tsparticles"
-                    particlesLoaded={particlesLoaded}
-                    options={{
-                        preset: "snow",
-                        background: {
-                            opacity: 0,
-                        },
-                    }}
-                />
-            )}
-        </>
-    );
+  return (
+    <>
+      {init && (
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={{
+            preset: "snow",
+            background: {
+              opacity: 0,
+            },
+          }}
+        />
+      )}
+    </>
+  );
 }
