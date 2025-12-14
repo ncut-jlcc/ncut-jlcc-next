@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import { Metadata } from "next"; // 引入 Metadata 类型
+import Snow from "@/components/Snow";
 
 // 定义元数据对象
 export const metadata: Metadata = {
@@ -41,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh">
-      <body>{children}</body>
-    </html>
+      <body>{children}<Snow /></body>
+    </html >
   );
 }
