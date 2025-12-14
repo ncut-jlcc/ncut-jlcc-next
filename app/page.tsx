@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Heroes from "./Heroes";
 import Footer from "./Footer";
 
-import Timeline from "./Timeline";
+// import Timeline from "./Timeline";
 
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       <Heroes />
-      <Timeline />
+      {/* <Timeline /> */}
       <Footer />
     </>
   );
